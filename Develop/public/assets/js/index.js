@@ -1,18 +1,3 @@
-// npm init -y
-// npm install express
-const fs = require('fs');
-const express = require('express');
-// will get routes
-const path = require('path')
-
-// import html files
-
-const PORT = 3001;
-
-// call express app
-const app = express();
-
-
 let noteForm;
 let noteTitle;
 let noteText;
