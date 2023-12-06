@@ -1,7 +1,7 @@
 const express = require('express');
 // const path = require('path');
 const PORT = process.env.PORT || 3001;
-const htmlRoute = require('./routes/html')
+const htmlRoute = require('./routes/html-routes')
 const apiRoute = require('./routes/api-routes')
 const app = express();
 
@@ -10,6 +10,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // serves the static files from the public folder
 app.use(express.static('public'));
+
+// routes will be accessible through main app
 app.use(htmlRoute)
 app.use(apiRoute)
 
