@@ -1,14 +1,14 @@
 # Express-Notertaker
 
 # Description
-This project's objective was to create a note-taker application that will grant users the ability to write and save notes. Through the use of Express.js, all note data was save and retrieved from a JSON file. And finally, the application was deployed via Heroku.
-Click the link to view the application! https://express-notetaker311-f1de29c59a79.herokuapp.com/notes
+This project's objective was to create a note-taker application that will grant users the ability to write and save notes. Through the use of Express.js back-end, all note data will save and be retrieved from a JSON file. And finally, the application was deployed via Heroku.
+Click the link to view the application! https://express-notetaker311-f1de29c59a79.herokuapp.com/
 
 # Installation
 - Clone project and then run following command to get packages: npm i
 
 # Usage
-1. Open application
+1. Open application (if in CLI, run: 'npm start' and click link)
 2. Click "Get Started" to open the note taker.
 3. Enter text into the 'title' and 'text' fields 
 4. Click the 'save note' button to save the note.
